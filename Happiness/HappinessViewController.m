@@ -17,7 +17,7 @@
 
 - (IBAction)buttonPressed
 {
-    self.display.text = @"Hello World!";
+    self.display.text = @"Fuck Up!";
 }
 
 
