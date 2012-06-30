@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B05ECD5159EA8530006CAF1 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05ECD4159EA8530006CAF1 /* FaceView.m */; };
 		9B9875C1159DEF870039064D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9875C0159DEF870039064D /* UIKit.framework */; };
 		9B9875C3159DEF870039064D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9875C2159DEF870039064D /* Foundation.framework */; };
 		9B9875C5159DEF870039064D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9875C4159DEF870039064D /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B05ECD3159EA8530006CAF1 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		9B05ECD4159EA8530006CAF1 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		9B9875BC159DEF870039064D /* Happiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9875C0159DEF870039064D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B9875C2159DEF870039064D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 				9B9875CF159DEF870039064D /* HappinessAppDelegate.h */,
 				9B9875D0159DEF870039064D /* HappinessAppDelegate.m */,
 				9B9875D2159DEF870039064D /* MainStoryboard.storyboard */,
+				9B05ECD3159EA8530006CAF1 /* FaceView.h */,
+				9B05ECD4159EA8530006CAF1 /* FaceView.m */,
 				9B9875D5159DEF870039064D /* HappinessViewController.h */,
 				9B9875D6159DEF870039064D /* HappinessViewController.m */,
 				9B9875C7159DEF870039064D /* Supporting Files */,
@@ -164,6 +169,7 @@
 				9B9875CD159DEF870039064D /* main.m in Sources */,
 				9B9875D1159DEF870039064D /* HappinessAppDelegate.m in Sources */,
 				9B9875D7159DEF870039064D /* HappinessViewController.m in Sources */,
+				9B05ECD5159EA8530006CAF1 /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				9B9875DC159DEF870039064D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

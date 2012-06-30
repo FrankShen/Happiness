@@ -10,5 +10,6 @@
 
 @interface HappinessViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *display;
+@property (nonatomic) int happiness;
+
 @end
